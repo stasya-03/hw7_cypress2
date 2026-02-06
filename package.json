@@ -1,0 +1,15 @@
+{
+  "name": "hw7",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Anastasia Ilicheva",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.10.0"
+  }
+}

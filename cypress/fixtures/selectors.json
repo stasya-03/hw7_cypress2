@@ -1,0 +1,17 @@
+{
+  "mainPage": {
+    "header": ".page-header__title",
+    "daysList": ".page-nav__day",
+    "moviesList": "body main",
+    "movieCard": ".movie",
+    "movieTitle": ".movie__title",
+    "moviePoster": ".movie__poster",
+    "movieDataDuration": ".movie__data-duration",
+    "seancesHall": ".movie-seances__hall",
+    "seanceTime": ".movie-seances__time"
+  },
+
+  "admin": {},
+
+  "booking": {}
+}

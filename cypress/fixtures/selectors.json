@@ -11,7 +11,11 @@
     "seanceTime": ".movie-seances__time"
   },
 
-  "admin": {},
+  "admin": {
+    "email": "input[placeholder='example@domain.xyz']",
+    "password": "input[name='password']",
+    "submitBtn": "button"
+  },
 
   "booking": {}
 }

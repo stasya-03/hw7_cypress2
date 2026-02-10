@@ -34,13 +34,3 @@ Cypress.Commands.add("getMovieFromAdmin", (email, password, movieName = "Вед�
   });
   },
 );
-
-// Cypress.Commands.add("getHallAndMovieFromAdmin", (email, password) => {
-//   cy.visit("/admin");
-//   cy.loginAdmin(email, password);
-//   cy.contains("Управление залами").should("be.visible");
-//   cy.contains("Выберите зал для конфигурации:").click();
-
-//   cy.get('select[name="prices-hall"]').should("be.visible").select("ВИП зал");
-//   cy.wrap("ВИП зал").as("hallName");
-// });

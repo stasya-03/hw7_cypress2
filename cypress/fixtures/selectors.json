@@ -14,8 +14,19 @@
   "admin": {
     "email": "input[placeholder='example@domain.xyz']",
     "password": "input[name='password']",
-    "submitBtn": "button"
+    "submitBtn": "button",
+    "hallName": ".conf-step__selector-label",
+    "movieTitle": ".conf-step__movie-title"
   },
 
-  "booking": {}
+  "booking": {
+    "hallTitle": ".movie-seances__hall-title",
+    "seanceTimeLink": ".movie-seances__time",
+    "chair": ".buying-scheme__chair",
+    "chairDisabled": ".buying-scheme__chair_disabled",
+    "chairTaken": ".buying-scheme__chair_taken",
+    "acceptBtn": ".acceptin-button",
+    "checkTitleSelector": ".ticket__check-title",
+    "seanceDisabled": ".acceptin-button-disabled"
+  }
 }
